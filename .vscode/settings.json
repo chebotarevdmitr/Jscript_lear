@@ -18,7 +18,10 @@
   // Автоматически добавлять одну пустую строку в конец файла при сохранении
   // (Требование многих стандартов кодирования и POSIX-систем)
   "files.insertFinalNewline": true,
-  
+
   // Удалять конечные пустые строки, кроме одной
-  "files.trimFinalNewlines": true
+  "files.trimFinalNewlines": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
