@@ -4,10 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript_fundamentals</title>
+
+    <!-- Подключаем красивый шрифт Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
     <style>
         body {
             height: 100vh;
+            margin: 0;
             display: flex;
+            flex-direction: column;
+            justify-content: center;
             align-items: center;
             background: linear-gradient(to top left, #2f1fa2, #198609);
         }
@@ -15,15 +23,31 @@
             font-family: 'Lato', sans-serif;
             font-size: 50px;
             line-height: 1.5;
-            width: 100%;
             padding: 30px;
             text-align: center;
             color: rgb(190, 26, 78);
+            transition: all 0.5s ease;
+        }
+        button {
+            font-family: 'Lato', sans-serif;
+            font-size: 20px;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 50px;
+            background: white;
+            color: #2f1fa2;
+            cursor: pointer;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            transition: transform 0.2s ease;
+        }
+        button:hover {
+            transform: scale(1.05);
         }
     </style>
 </head>
 <body>
-    <h1>JavaScript Fundamentals Dima</h1>
+    <h1 id="main-title">JavaScript Fundamentals Dima</h1>
+    <button id="magic-btn">Сделать магию! ✨</button>
 
     <script src="script.js"></script>
 </body>
