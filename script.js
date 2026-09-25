@@ -1,7 +1,3 @@
-
-let js = "amazing";
-if (js === "amazing") {
-    console.log("JavaScript is FUN!");
-}
-40+8+23-10;
-console.log(40 + 8 + 23 - 10);
+ let js = "amazing";
+      if (js === "amazing") alert("JavaScript is FUN!");
+      console.log(20 + 90 + 78 - 19);
